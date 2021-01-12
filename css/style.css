@@ -1,0 +1,461 @@
+/*start main website area*/
+.hero{
+    background: url(https://beyond-p.netlify.app/img/main-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hero .hero-inside{
+    width: 100%;
+    height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 0;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px 0 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+.menu ul{
+    margin-top: 20px;
+}
+.helloTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    color: white;
+}
+.nameTitle{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+}
+.jobsTitle{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0 ,0, 0.5);
+    display: flex;
+}
+.jobsTitle hr{
+    width: 10px;
+    border: 1px #ff0000 solid;
+}
+.socialMediaIcons ul{
+    list-style-type: none;
+    margin-bottom: 200px;
+    color: white;
+    margin-top: 20px;
+}
+.socialMediaIcons ul li{
+    display: inline;
+    margin: 0 20px 0 0;
+}
+/*end main website area*/
+
+/*start about area*/
+.aboutTitle{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-block-end: 40px;
+    margin-top: 60px;
+}
+.verticalLine{
+    border-left: 2px solid red; 
+    position: absolute;
+    height: 30px; 
+    left: 50%; 
+    margin-top: 120px;
+    padding-bottom: 13px;
+}
+.aboutLeft{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-block-end: 15px;
+}
+.blackLine1{
+    border-top: 2px solid black;
+    margin-block-end: 5px;
+    margin-top: 5px;
+    width:30px;
+}
+.descriere{
+    font-size: 20px;
+    font-weight: none;
+    margin-block-end: 15px;
+}
+.skillsAbilitiesTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-block-end: 15px;
+}
+.blackLine2{
+    border-top: 2px solid black;
+    margin-block-end: 5px;
+    margin-top: 5px;
+    width:30px;
+}
+.webDesignTitle{
+    font-size: 20px;
+    font-weight: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.procent1{
+    margin-top: -20px;
+    margin-left: 315px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.redBar1{
+    background: #dddddd;
+    width: 100%;
+    margin-block-end: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: all 3s;
+    height: 6px;
+    border-radius: 2px;
+    padding-top: 2px;
+}
+.redBar1 .red1{
+    background: #ff0000;
+    width: 92%;
+    height: 2px;
+    padding-left: 3px;
+}
+.photoshopTitle{
+    font-size: 20px;
+    font-weight: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.procent2{
+    margin-top: -20px;
+    margin-left: 260px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.redBar2{
+    background: #dddddd;
+    width: 100%;
+    margin-block-end: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: all 3s;
+    height: 6px;
+    border-radius: 2px;
+    padding-top: 2px;
+}
+.redBar2 .red2{
+    background: #ff0000;
+    width: 77%;
+    height: 2px;
+    padding-left: 3px;
+}
+.developmentTitle{
+    font-size: 20px;
+    font-weight: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.procent3{
+    margin-top: -20px;
+    margin-left: 320px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.redBar3{
+    background: #dddddd;
+    width: 100%;
+    margin-block-end: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: all 3s;
+    height: 6px;
+    border-radius: 2px;
+    padding-top: 2px;
+}
+.redBar3 .red3{
+    background: #ff0000;
+    width: 95%;
+    height: 2px;
+    padding-left: 3px;
+}
+.jobsEducationTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-block-end: 15px;
+}
+.blackLine3{
+    border-top: 2px solid black;
+    margin-block-end: 5px;
+    margin-top: 5px;
+    width:30px;
+}
+.creativeDirectorTitle{
+    font-weight: bolder;    
+}
+.data1{
+    font-weight: bolder;
+    font-size: 10px;
+    font-weight: 600;
+    width: 90px;
+    height: 25px;
+    padding: 4px 8px;
+    border: 1px solid #d3d3d3;
+    margin: 14px 0; 
+}
+.freelanceTitle{
+    color: red;
+}
+.freelanceTitle p{
+    color: gray;
+}
+.envatoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data2{
+    font-weight: bolder;
+    font-size: 10px;
+    font-weight: 600;
+    width: 95px;
+    height: 25px;
+    padding: 4px 8px;
+    border: 1px solid #d3d3d3;
+    margin: 14px 0; 
+}
+.freelancerTitle{
+    color: red;
+}
+.freelancerTitle p{
+    color: grey;
+}
+.specializationCourseTitle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data3{
+    font-weight: bolder;
+    font-size: 10px;
+    font-weight: 600;
+    width: 95px;
+    height: 25px;
+    padding: 4px 8px;
+    border: 1px solid #d3d3d3;
+    margin: 14px 0; 
+}
+.universityTitle{
+    color: red;
+}
+.universityTitle p{
+    color: grey;
+}
+.specializationCourseTitle2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.data4{
+    font-weight: bolder;
+    font-size: 10px;
+    font-weight: 600;
+    width: 95px;
+    height: 25px;
+    padding: 4px 8px;
+    border: 1px solid #d3d3d3;
+    margin: 14px 0;
+}
+.specializationCourseTitle2 p{
+    font-weight: none;
+}
+.freelancer2Title{
+    color: red;
+}
+.freelancer2Title p{
+    color: grey;
+}
+/*end about area*/
+/*start work area*/
+.work{
+    background-color: #f7f7f7;
+}
+.myRecentWorksTitle{
+    font-size: 15px;
+    color: red;
+    margin-top:50px;
+    padding-left: 70px;
+}
+.myRecentWorksTitle hr{
+    width: 50px;
+    border: 1px #ff0000 solid;
+    margin: 0 0 -15px 0 ;
+    margin-left: -60px;
+}
+.myWorkTitle{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.buttons{
+    color:grey;
+    margin-bottom: 20px;
+}
+/*end work area*/
+/*start testimonials area*/
+.whatOurClientSayTitle{
+    font-size: 15px;
+    color: red;
+    margin-top: 100px;
+}
+.whatOurClientSayTitle hr{
+    width: 50px;
+    border: 1px #ff0000 solid;
+    margin: 0 0 -15px 0 ;
+    margin-left: -60px;
+}
+.testimonialsTitle{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+/*end testimonials area*/
+/*start blog area*/
+.seeLatestNewsTitle{
+    font-size: 15px;
+    color: red;
+    margin-top: 100px;
+}
+.seeLatestNewsTitle hr{
+    width: 50px;
+    border: 1px #ff0000 solid;
+    margin: 0 0 -15px 0 ;
+    margin-left: -60px;
+}
+.myBlogTitle{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+    font-family: 'Raleway', sans-serif;
+}
+.blog{
+    background-color: ;
+}
+.travelling1{
+
+}
+.travelling1 .calendar1{
+   margin-top: 30px;
+}
+.travelling2{
+
+}
+.travelling2 .calendar2{
+    margin-top: 30px;
+}
+.travelling3{
+
+}
+.travelling3 .calendar3{
+    margin-top: 30px;
+}
+.text{
+    margin-top: 15px;
+    font-size: 23px;
+}
+/*end blog area*/
+/*start contact area*/
+.getInTouchTitle{
+    font-size: 15px;
+    color: red;
+    margin-top: 100px;
+}
+.getInTouchTitle hr{
+    width: 50px;
+    border: 1px #ff0000 solid;
+    margin: 0 0 -15px 0 ;
+    margin-left: -60px;
+}
+.contactMeTitle{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-family: 'Raleway', sans-serif;
+}
+.icons1{
+    color:red;
+    font-size: 30px;
+}
+.myLocationTtitle{
+    font-family: 'Raleway', sans-serif;
+    color: #151515;
+    font-weight: bold;
+}
+.myLocationTtitle p{
+    color: grey;
+    font-weight:none;
+    font-size: 14px;
+}
+.icons2{
+    color:red;
+    font-size: 30px;
+}
+.phoneNumberTitle{
+    font-family: 'Raleway', sans-serif;
+    color: #151515;
+    font-weight: bold;
+}
+.phoneNumberTitle p{
+    color: grey;
+    font-weight:none;
+    font-size: 14px;
+}
+.icons3{
+    color:red;
+    font-size: 30px;
+}
+.emailAdressTitle{
+    font-family: 'Raleway', sans-serif;
+    color: #151515;
+    font-weight: bold;
+}
+.emailAdressTitle p{
+    color: rgb(6, 137, 245);
+    font-weight:none;
+    font-size: 14px;
+}
+/*end contact area*/
+/*start last part area*/
+.footer{
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+.logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lastPartSite{
+    margin-bottom: 30px;
+}
+.lastPartSite ul li{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-top:30px;
+    margin-bottom: 30px;
+    transition: all .5s;
+}
+.copyright{
+    color: grey;
+    margin-bottom: 30px;
+}
+/*end last part area*/
