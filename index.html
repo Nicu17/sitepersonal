@@ -3,11 +3,26 @@
 	<head>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "",
+				animationLoop: "false",
+				itemWidth: 210,
+				itemMargin: 3,
+				minItems: 3,
+				maxItems: 3,
+			});
+			});
+		</script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<!--Main website area-->
-		<section class="container-fluid hero">
+		<section class="container-fluid noPadding hero">
 			<div class="hero-inside">
 				<div class="row">
 					<div class="logo col-md-1">
@@ -42,7 +57,7 @@
 						Hello
 					</div>
 					<div class="nameTitle col-md-12 text-center">
-						I am Alex Smith
+						I Am Alex Smith
 					</div>
 					<div class="jobsTitle col-md-4 offset-md-4 text-center">
 						DESIGNER
@@ -186,13 +201,82 @@
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										</p>
 									</div>
-									<p>
-										Carousel
-									</p>
 							</div>
 				</div>
 			</section>
 			<!--End of main website area-->
+			<!--Start carousel website area-->
+			<section class="container">
+				<div class="flexslider carousel">
+					<ul class="slides">
+					<li>
+						<div class="slideBox1">
+							<h3 class="numberOfSlide1">
+								01
+								<i class="laptopIcons fa fa-laptop" title="laptop" aria-hidden="true"></i>
+							</h3>
+							<h4 class="slideTitle1">
+								Web design
+							</h4>
+							<hr class="horizontalLine1">
+							</hr>
+							<p>
+								Extreme attention to detail is the essence of Boo’s unique design concepts.
+							</p>
+						</div>
+					</li>
+					  <li>
+						<div class="slideBox2">
+							<h3 class="numberOfSlide2">
+								02
+								<i class="videoCameraIcons fa fa-video-camera" title="video" aria-hidden="true"></i>
+							</h3>
+							<h4 class="slideTitle2">
+								Web developer
+							</h4>
+							<hr class="horizontalLine2">
+							</hr>
+							<p>
+								Extreme attention to detail is the essence of Boo’s unique design concepts.
+							</p>
+						</div>
+					  </li>
+					  <li>
+						<div class="slideBox3">
+							<h3 class="numberOfSlide3">
+								03
+								<i class="computerIcon fa fa-television"  title="computer" aria-hidden="true"></i>
+							</h3>
+							<h4 class="slideTitle3">
+								Web developer
+							</h4>
+							<hr class="horizontalLine3">
+							</hr>
+							<p>
+								Extreme attention to detail is the essence of Boo’s unique design concepts.
+							</p>
+						</div>
+					  </li>
+					  <li>
+						<div class="slideBox4">
+							<h3 class="numberOfSlide4">
+								04
+								<i class="computerIcon fa fa-television" title="computer" aria-hidden="true"></i>
+							</h3>
+							<h4 class="slideTitle4">
+								Photographi
+							</h4>
+							<hr class="horizontalLine4">
+							</hr>
+							<p>
+								Extreme attention to detail is the essence of Boo’s unique design concepts.
+							</p>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+			</section>
+			<!--End carousel website area-->
 			<!--Work website area-->
 			<section class="container-fluid work">
 				<div class="row">
@@ -247,55 +331,84 @@
 				</section>
 				<!--End of main website area-->
 				<!--My blog website area-->
-				<section class="container-fluid blog">
-				<div class="row">
-					<div class="seeLatestNewsTitle col-md-12 offset-md-12">
-						<hr/>
-						See latest news
-					</div>
-					<div class="myBlogTitle col-md-12">
-						My blog
-					</div>
-					<div class="myBlogTitle col-md-12">
-					</div>
-					<div class="travelling1 col-md-4">
-						<img src="images/trav1.jpg" height="250" width="300"/>
-						<div>
-							<i class="calendar1 fa fa-calendar" aria-hidden="true"></i>
-							July 3, 2018 in Travelling
-							<i class="fa fa-commenting-o" aria-hidden="true"></i>
-							3
-							<h4 class="text">
-								Seven places that you can find graphic designer
-							</h4>
+				<div class="blog">
+					<section class="container">
+					<div class="row">
+						<div class="seeLatestNewsTitle col-md-12 offset-md-12">
+							<hr/>
+							See latest news
+						</div>
+						<div class="myBlogTitle col-md-12">
+							My blog
+						</div>
+						<div class="myBlogTitle col-md-12">
+						</div>
+						<div class="boxImg1  col-md-4">
+							<button class="travellingButton" type="button">TRAVELLING</button>
+							<img class="img-fluid" src="images/trav1.jpg"/>
+							<div class="travelling">
+								<div>
+									<i class="calendar fa fa-calendar" aria-hidden="true"></i>
+									July 3, 2018 in Travelling
+									<i class="fa fa-commenting-o" aria-hidden="true"></i>
+									3
+									<h4 class="text">
+										Seven places that you can find graphic designer
+									</h4>
+									<div class="autor offset-md-4">
+										<img class="autor1" src="images/autor1.jpg" width="30px">
+										<h6 class="johnSmithTitle">
+											John Smith
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="boxImg2 col-md-4">
+							<button class="travellingButton" type="button">TRAVELLING</button>
+							<div  class="travelling">
+								<img class="img-fluid" src="images/trav2.jpg"/>
+								<div>
+									<i class="calendar fa fa-calendar" aria-hidden="true"></i>
+									July 3, 2018 in Travelling
+									<i class="fa fa-commenting-o" aria-hidden="true"></i>
+									3
+									<h4 class="text">
+										Seven places that you can find graphic designer
+									</h4>
+									<div class="autor offset-md-4">
+										<img class="autor1" src="images/autor1.jpg" width="30px">
+										<h6 class="johnSmithTitle">
+											John Smith
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="boxImg3  col-md-4">
+							<button class="travellingButton" type="button">TRAVELLING</button>
+							<div  class="travelling">
+								<img class="img-fluid" src="images/trav3.jpg"/>
+								<div>
+									<i class="calendar fa fa-calendar" aria-hidden="true"></i>
+									July 3, 2018 in Travelling
+									<i class="fa fa-commenting-o" aria-hidden="true"></i>
+									3
+									<h4 class="text">
+										Seven places that you can find graphic designer
+									</h4>
+									<div class="autor offset-md-4">
+										<img class="autor1" src="images/autor1.jpg" width="30px">
+										<h6 class="johnSmithTitle">
+											John Smith
+										</h6>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div  class="travelling2 col-md-4">
-						<img src="images/trav2.jpg" height="250" width="300"/>
-						<div>
-							<i class="calendar2 fa fa-calendar" aria-hidden="true"></i>
-							July 3, 2018 in Travelling
-							<i class="fa fa-commenting-o" aria-hidden="true"></i>
-							3
-							<h4 class="text">
-								Seven places that you can find graphic designer
-							</h4>
-						</div>
-					</div>
-					<div  class="travelling3 col-md-4">
-						<img src="images/trav3.jpg" height="250" width="300"/>
-						<div>
-							<i class="calendar3 fa fa-calendar" aria-hidden="true"></i>
-							July 3, 2018 in Travelling
-							<i class="fa fa-commenting-o" aria-hidden="true"></i>
-							3
-							<h4 class="text">
-								Seven places that you can find graphic designer
-							</h4>
-						</div>
-					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		<!--End of main area-->
 		<!--Contact website area-->
 		<section class="container">
@@ -307,16 +420,18 @@
 				<div class="contactMeTitle col-md-12">
 					Contact me
 				</div>
-					<div class="col-md-4">
+				<div class="phone col-md-4">
 						<i class="icons1 fa fa-exchange" aria-hidden="true"></i>
-						<div class="myLocationTtitle">
+					<div class="myLocationTtitle">
 							My location
 						<p>
 							3481 Melrose Place, Beverly Hills CA
 						</p>
-						</div>
 					</div>
-					<div class="col-md-4">
+				</div>
+				<div class="greyVerticalLine1">
+				</div>
+					<div class="phone col-md-4">
 						<i class="icons2 fa fa-mobile" aria-hidden="true"></i>
 						<div class="phoneNumberTitle">
 							Phone Number:
@@ -325,7 +440,9 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="greyVerticalLine2">
+					</div>
+					<div class=" email col-md-4">
 						<i class="icons3 fa fa-envelope-o" aria-hidden="true"></i>
 						<div class="emailAdressTitle ">
 							Email Address:
@@ -334,7 +451,6 @@
 							</p>
 						</div>
 					</div>
-				
 			</div>
 			
 		</section>

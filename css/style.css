@@ -1,4 +1,8 @@
 /*start main website area*/
+.noPadding{
+    padding-left: 0;
+    padding-right: 0;
+}
 .hero{
     background: url(https://beyond-p.netlify.app/img/main-img.jpg);
     background-size: cover;
@@ -40,6 +44,8 @@
     color: white;
     background-color: rgba(0, 0 ,0, 0.5);
     display: flex;
+    letter-spacing: 4px;
+    padding: 8px;
 }
 .jobsTitle hr{
     width: 10px;
@@ -281,6 +287,148 @@
     color: grey;
 }
 /*end about area*/
+/*start carousel area*/
+.flexslider ul{
+    width: 30%;
+    height: 40%;
+}
+.slideBox1{
+    border: 1px solid rgb(247, 243, 243);
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+.numberOfSlide1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ff3636;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.laptopIcons{
+    margin-left: 220px;
+    color: grey;
+    font-size: 60px;
+    margin-top:-50px;
+}
+.slideTitle1{
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+}
+.horizontalLine1{
+   width: 85%;
+}
+.flexslider ul li p{
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.slideBox2{
+    border: 1px solid rgb(247, 243, 243);
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+.numberOfSlide2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ff3636;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.videoCameraIcons{
+    margin-left: 220px;
+    color: grey;
+    font-size: 60px;
+    margin-top:-50px;
+}
+.slideTitle2{
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+}
+.horizontalLine2{
+    width: 85%;
+ }
+ .flexslider ul li p{
+     color: grey;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .slideBox3{
+    border: 1px solid rgb(247, 243, 243);
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+.numberOfSlide3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ff3636;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.videoCameraIcon{
+    margin-left: 220px;
+    color: grey;
+    font-size: 60px;
+    margin-top:-50px;
+}
+.slideTitle3{
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+}
+.horizontalLine3{
+    width: 85%;
+ }
+ .flexslider ul li p{
+     color: grey;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .slideBox4{
+    border: 1px solid rgb(247, 243, 243);
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+.numberOfSlide4{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ff3636;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.computerIcon{
+    margin-left: 220px;
+    color: grey;
+    font-size: 60px;
+    margin-top:-50px;
+}
+.slideTitle4{
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+}
+.horizontalLine4{
+    width: 85%;
+ }
+ .flexslider ul li p{
+     color: grey;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+/*end carousel area*/
 /*start work area*/
 .work{
     background-color: #f7f7f7;
@@ -289,7 +437,7 @@
     font-size: 15px;
     color: red;
     margin-top:50px;
-    padding-left: 70px;
+    padding-left: 115px;
 }
 .myRecentWorksTitle hr{
     width: 50px;
@@ -302,7 +450,7 @@
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 40px;
-    margin-left: 50px;
+    margin-left: 93px;
 }
 .buttons{
     color:grey;
@@ -346,29 +494,74 @@
     font-family: 'Raleway', sans-serif;
 }
 .blog{
-    background-color: ;
+    background-color: #f7f7f7;
+    width: 100%;
 }
-.travelling1{
-
+.boxImg1{
+  border: 1px solid rgb(235, 232, 232);
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 5px;
+  margin-right: 20px;
 }
-.travelling1 .calendar1{
+.travellingButton{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff3636;
+    border-radius: 4px;
+    z-index: 3;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #ffffff;
+}
+.calendar{
+    padding-left: 20px;
+}
+.text{
+    padding-left: 20px;
+}
+.autor .autor1{
+    border-radius: 50%;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+.travelling .calendar{
    margin-top: 30px;
 }
-.travelling2{
-
+.johnSmithTitle{
+    font-size: 13px;
+    margin-top: -20px;
+    margin-left: -50px;
+    margin-bottom: 25px;
 }
-.travelling2 .calendar2{
+.boxImg2{
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+.travelling .calendar{
     margin-top: 30px;
 }
-.travelling3{
-
-}
-.travelling3 .calendar3{
+.travelling .calendar{
     margin-top: 30px;
 }
 .text{
     margin-top: 15px;
     font-size: 23px;
+}
+.boxImg3{
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
 }
 /*end blog area*/
 /*start contact area*/
@@ -389,54 +582,97 @@
     margin-bottom: 70px;
     font-family: 'Raleway', sans-serif;
 }
+.location{
+    background-color:#f9f9f9 ;
+}
 .icons1{
     color:red;
-    font-size: 30px;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 20px;
 }
 .myLocationTtitle{
     font-family: 'Raleway', sans-serif;
     color: #151515;
     font-weight: bold;
+    padding-left: 70px;
+    
 }
 .myLocationTtitle p{
     color: grey;
     font-weight:none;
     font-size: 14px;
+    margin-left: -60px;
+    margin-top: 15px;
+}
+.greyVerticalLine1{
+    border-left: 0.5px solid rgb(221, 215, 215);
+    position: absolute;
+    height: 110px;
+    left: 35%;
+    margin-top: 265px;
+    padding-bottom: 13px;
+}
+.phone{
+    background-color:#f9f9f9;
 }
 .icons2{
     color:red;
-    font-size: 30px;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 20px;
 }
 .phoneNumberTitle{
     font-family: 'Raleway', sans-serif;
     color: #151515;
     font-weight: bold;
+    margin-left: 60px;
 }
 .phoneNumberTitle p{
     color: grey;
     font-weight:none;
     font-size: 14px;
+    margin-top: 15px;
+}
+.greyVerticalLine2{
+    border-left: 0.5px solid rgb(221, 215, 215);
+    position: absolute;
+    height: 110px;
+    left: 60%;
+    margin-top: 265px;
+    padding-bottom: 13px;
+}
+.email{
+    background-color: #f9f9f9;
 }
 .icons3{
     color:red;
-    font-size: 30px;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 15px;
 }
 .emailAdressTitle{
     font-family: 'Raleway', sans-serif;
     color: #151515;
     font-weight: bold;
+    margin-left: 60px;
 }
 .emailAdressTitle p{
     color: rgb(6, 137, 245);
     font-weight:none;
     font-size: 14px;
+    margin-top: 15px;
 }
 /*end contact area*/
 /*start last part area*/
 .footer{
-    background-color: black;
-    background-size: cover;
-    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    background: #171717;
+    padding: 50px 0;
 }
 .logo{
     margin-top: 30px;
