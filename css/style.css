@@ -61,6 +61,27 @@
     display: inline;
     margin: 0 20px 0 0;
 }
+@media only screen and (max-width:1200px) and (min-width:1024px){
+   .jobsTitle{
+       font-size: 12px;
+       padding-top: 18px;
+   }
+   .jobsTitle hr{
+       margin-top: 0.5rem;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .menu ul li{
+        margin: 0px 10px 0 0;
+    }
+    .jobsTitle{
+        font-size: 12px;
+        padding: 0;
+    }
+    .jobsTitle hr{
+        margin-top: 0.5rem;
+    }
+}
 /*end main website area*/
 
 /*start about area*/
@@ -286,6 +307,28 @@
 .freelancer2Title p{
     color: grey;
 }
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+    .procent1{
+        margin-left: 260px;
+    }
+    .procent2{
+        margin-left: 221px;
+    }
+    .procent3{
+        margin-left: 266px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .procent1{
+        margin-left: 188px;
+    }
+    .procent2{
+        margin-left: 158px;
+    }
+    .procent3{
+        margin-left: 194px;
+    }
+}
 /*end about area*/
 /*start carousel area*/
 .flexslider ul{
@@ -428,6 +471,20 @@
      margin-top: 20px;
      margin-bottom: 20px;
  }
+ @media only screen and (min-width: 768px) and (max-width:1024px){
+     .laptopIcons{
+        margin-left: 126px;
+        font-size: 58px;
+     }
+     .videoCameraIcons{
+        margin-left: 126px;
+        font-size: 58px;
+     }
+     .computerIcon{
+        margin-left: 126px;
+        font-size: 58px;
+     }
+ }
 /*end carousel area*/
 /*start work area*/
 .work{
@@ -437,20 +494,20 @@
     font-size: 15px;
     color: red;
     margin-top:50px;
-    padding-left: 115px;
+    margin-left: 50px;
 }
 .myRecentWorksTitle hr{
     width: 50px;
     border: 1px #ff0000 solid;
-    margin: 0 0 -15px 0 ;
-    margin-left: -60px;
+    margin: 7px 0 -15px 0 ;
+    margin-left: -70px;
 }
 .myWorkTitle{
     font-size: 40px;
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 40px;
-    margin-left: 93px;
+    margin-left: 50px;
 }
 .buttons{
     color:grey;
@@ -462,17 +519,19 @@
     font-size: 15px;
     color: red;
     margin-top: 100px;
+    margin-left: 50px;
 }
 .whatOurClientSayTitle hr{
     width: 50px;
     border: 1px #ff0000 solid;
     margin: 0 0 -15px 0 ;
-    margin-left: -60px;
+    margin-left: -70px;
 }
 .testimonialsTitle{
     font-size: 40px;
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
 }
 /*end testimonials area*/
 /*start blog area*/
@@ -480,18 +539,20 @@
     font-size: 15px;
     color: red;
     margin-top: 100px;
+    margin-left: 50px;
 }
 .seeLatestNewsTitle hr{
     width: 50px;
     border: 1px #ff0000 solid;
     margin: 0 0 -15px 0 ;
-    margin-left: -60px;
+    margin-left: -70px;
 }
 .myBlogTitle{
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 70px;
     font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
 }
 .blog{
     background-color: #f7f7f7;
@@ -499,10 +560,6 @@
 }
 .boxImg1{
   border: 1px solid rgb(235, 232, 232);
-  border-radius: 4px;
-  padding: 5px;
-  padding-right: 5px;
-  margin-right: 20px;
 }
 .travellingButton{
     position: absolute;
@@ -541,10 +598,6 @@
 }
 .boxImg2{
     border: 1px solid rgb(235, 232, 232);
-    border-radius: 4px;
-    padding: 5px;
-    padding-right: 5px;
-    margin-right: 20px;
 }
 .travelling .calendar{
     margin-top: 30px;
@@ -558,10 +611,25 @@
 }
 .boxImg3{
     border: 1px solid rgb(235, 232, 232);
-    border-radius: 4px;
-    padding: 5px;
-    padding-right: 5px;
-    margin-right: 20px;
+}
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+    .autor .autor1{
+        margin-left: -76px;
+    }
+    .johnSmithTitle{
+        margin-left: -40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .fa{
+        padding-left: 17px;
+    }
+    .autor .autor1{
+        margin-left: -55px;
+    }
+    .johnSmithTitle{
+        margin-left: -17px;
+    }
 }
 /*end blog area*/
 /*start contact area*/
@@ -569,21 +637,23 @@
     font-size: 15px;
     color: red;
     margin-top: 100px;
+    margin-left: 50px;
 }
 .getInTouchTitle hr{
     width: 50px;
     border: 1px #ff0000 solid;
     margin: 0 0 -15px 0 ;
-    margin-left: -60px;
+    margin-left: -70px;
 }
 .partInfo{
-    background-color:#f9f9f9  ;
+    background-color:#f9f9f9;
 }
 .contactMeTitle{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 70px;
     font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
 }
 .phone{
     position: relative;
@@ -713,6 +783,22 @@
     transition: all .5s ease;
     margin-top: 30px;
     margin-bottom: 130px;
+}
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+    .icons2{
+        padding-left: 124px;
+    }
+    .phoneNumberTitle{
+        margin-left: 78px;
+    }
+    .icons3{
+        margin-top: 25px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .icons3{
+        margin-top: 21px;
+    }
 }
 /*end contact area*/
 /*start last part area*/
