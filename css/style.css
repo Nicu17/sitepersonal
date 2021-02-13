@@ -3,6 +3,10 @@
     padding-left: 0;
     padding-right: 0;
 }
+.noMargin{
+    margin-left: 0;
+    margin-right: 0;
+}
 .hero{
     background: url(https://beyond-p.netlify.app/img/main-img.jpg);
     background-size: cover;
@@ -88,9 +92,9 @@
         height: 40%;
     }
 }
-@media only screen and (orientation:portrait) and (min-width: 375px) and (max-width: 812px){
+@media only screen and (orientation:landscape) and (min-width: 375px){
     .hero .hero-inside{
-        height: 26%;
+        height: 100%;
     }
 }
 /*end main website area*/
@@ -362,10 +366,10 @@
         margin-left: 266px;
     }
 }
-@media only screen and (orientation:landscape) and (min-width: 375px) and (max-width:812px){
+@media only screen and (orientation:landscape) and (min-width: 375px){
     .procent1{
-        margin-left: 190px;
-    }
+    margin-left: 189px;
+}
 }
 
 /*end about area*/
@@ -527,7 +531,7 @@
         font-size: 58px;
      }
  }
- @media only screen and (orientation:portrait) and (min-width: 1024px) and (max-width:1200px){}
+ @media only screen and (orientation:portrait) and (min-width: 1024px) and (max-width:1200px){
     .flex-control-nav{
     display: none;
     }
@@ -637,9 +641,9 @@
 }
 .autor .autor1{
     border-radius: 50%;
-    padding-left: px;
+    padding-left: 1px;
     margin-top: 20px;
-    margin-right: ;
+    margin-left: 17px;
 }
 .travelling .calendar{
    margin-top: 30px;
@@ -647,7 +651,7 @@
 .johnSmithTitle{
     font-size: 13px;
     margin-top: -20px;
-    margin-left: 40px;
+    margin-left: 58px;
     margin-bottom: 25px;
 }
 .boxImg2{
@@ -684,6 +688,21 @@
     .johnSmithTitle{
         margin-left: -17px;
     }
+}
+@media only screen and (orientation:landscape) and (min-width: 375px){
+    .autor .autor1{
+        margin-left: 16px;
+    }
+    .johnSmithTitle{
+        margin-left: 57px;
+    }
+}
+@media only screen and (orientation:portrait) and (min-width: 1024px){
+    .autor .autor1{
+        margin-left: 17px;
+    }
+    .johnSmithTitle {
+        margin-left: 59px;
 }
 /*end blog area*/
 /*start contact area*/
@@ -859,6 +878,9 @@
     .icons3{
         margin-top: 21px;
     }
+}
+@media only screen and (orientation:portrait) and (min-width: 1024px){
+    
 }
 /*end contact area*/
 /*start last part area*/

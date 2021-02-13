@@ -29,14 +29,33 @@ let car = { //object
 let name= 'Mihai';
 let age= 34;
 let stareCivila= true;
-let culoriPreferate= ['verde', 'albastru', 'galben'];
+let culoriPreferate= ['verde', 'albastru', 'galben', 'rosu'];
 
-console.log('Sunt ' + name, 'si am varsta de ' + age, 'dar sunt stare civila ' + stareCivila);
-console.log('A doua culoare preferata este ' + culoriPreferate[2]);
+//console.log('Sunt ' + name, 'si am varsta de ' + age, 'dar sunt stare civila ' + stareCivila);
+//console.log('A doua culoare preferata este ' + culoriPreferate[2]);
 
 let animal={
     tip: 'caine',
     greutate: 10,
     nume: ['Bruno', 'Jack', 'Igor']
 }
-console.log(animal);
+//console.log(animal.nume[1]);
+
+
+let x = 10;
+let y = 5;
+
+if(x < y){
+    console.log('x este mai mic decat y');
+}
+else if(x > y){
+    console.log('x este mai mare decat y');
+}
+else{
+    console.log('x egal cu y');
+}
+
+
+for(i = 0; i < 4; i++){
+    console.log(culoriPreferate[i]);
+}
