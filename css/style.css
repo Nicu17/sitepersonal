@@ -20,6 +20,9 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 0;
 }
+.menu{
+   
+}
 .menu ul li{
     list-style-type: none;
     display: inline;
@@ -95,6 +98,16 @@
 @media only screen and (orientation:landscape) and (min-width: 375px){
     .hero .hero-inside{
         height: 100%;
+    }
+}
+@media only screen and (orientation:landscape) and (min-width: 1024px){
+    .hero .hero-inside {
+        height: 100%;
+    }
+}
+@media only screen and (orientation:portrait) and (min-width: 375px){
+    .hero .hero-inside{
+        height: 25%;
     }
 }
 /*end main website area*/
@@ -368,8 +381,12 @@
 }
 @media only screen and (orientation:landscape) and (min-width: 375px){
     .procent1{
-    margin-left: 189px;
+        margin-left: 189px;
+    }
 }
+@media only screen and (orientation:landscape) and (min-width: 1024px){
+    .procent1{
+        margin-left: 315px;
 }
 
 /*end about area*/
@@ -703,6 +720,7 @@
     }
     .johnSmithTitle {
         margin-left: 59px;
+    }
 }
 /*end blog area*/
 /*start contact area*/
@@ -888,7 +906,7 @@
     position: relative;
     overflow: hidden;
     background: #171717;
-    padding: 50px 0;
+    padding: 50px;
 }
 .logo{
     margin-top: 30px;

@@ -42,20 +42,44 @@ let animal={
 //console.log(animal.nume[1]);
 
 
-let x = 10;
-let y = 5;
+//let x = 10;
+//let y = 5;
 
-if(x < y){
-    console.log('x este mai mic decat y');
-}
-else if(x > y){
+//if(x < y){
+  // console.log('x este mai mic decat y');
+//}
+//else if(x > y){
+   // console.log('x este mai mare decat y');
+//}
+//else{
+   // console.log('x egal cu y');
+//}
+
+
+//for(i = 0; i < 4; i++){
+    // console.log(culoriPreferate[i]);
+//}
+
+
+let x = 12;
+let y = 15;
+
+let numerePrime = [2, 3, 5, 7, 11, 13];
+
+if(x > y){
     console.log('x este mai mare decat y');
 }
+else if(x < y){
+    console.log('x este mai mic decat y');
+}
 else{
-    console.log('x egal cu y');
+    console.log('x este egal cu y');
+}
+if(0 < 12 < 15){
+    console.log('numarul 12 este mai mare decat 0 si mai mic decat numarul 15');
 }
 
+console.log('prima variabila ' + x, 'nu exista in variabila de tip array ' + numerePrime);
 
-for(i = 0; i < 4; i++){
-    console.log(culoriPreferate[i]);
-}
+
+
