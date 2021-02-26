@@ -61,7 +61,7 @@ let animal={
 //}
 
 
-let x = 12;
+/*let x = 2;
 let y = 15;
 
 let numerePrime = [2, 3, 5, 7, 11, 13];
@@ -75,11 +75,71 @@ else if(x < y){
 else{
     console.log('x este egal cu y');
 }
-if(0 < 12 < 15){
+
+
+/*if(x > 0 && x < y){
     console.log('numarul 12 este mai mare decat 0 si mai mic decat numarul 15');
 }
 
-console.log('prima variabila ' + x, 'nu exista in variabila de tip array ' + numerePrime);
+if(x > 0 || x < y){
+    console.log('numarul 12 este mai mare decat 0 si mai mic decat numarul 15');
+}*/
+
+
+/*for(i=0; i<6; i++){
+    if(x == numerePrime[i]){
+        console.log('numarul ' + x + 'exista in sirul de numere prime')
+    }
+}*/
+
+/*function adunare(a, b){
+    console.log(a + b);
+}
+
+adunare(5, 7);
+
+adunare(12, 16);
+
+function verificare(numar, sir){
+    for(i=0; i< sir.length; i++){
+        if(numar == sir[i]){
+            console.log('numarul ' + numar + ' exista in sirul de numere prime')
+        }
+    }
+}
+verificare(13, [2, 3, 5, 7, 11, 13]);
+verificare(2, [1, 5, 8, 9, 15, 20, 26, 2]);*/
+
+            //tema
+function calcule(p1, p2){
+    console.log(p1 + p2);
+    console.log(p1 * p2);
+}
+calcule(5, 8);
+
+function nume(){
+    n = prompt('Cum te numesti');
+    console.log('Salut ' + n);
+}
+//nume();
+
+
+function verificare(a, b){
+    for(i=0; i < a.length; i++){
+        for(j=0; j < b.length; j++){
+            if(a[i] == b[j]){
+                console.log('numarul ' + a[i] + ' este si in al doilea array');
+            }
+        }
+        
+    }
+}
+verificare([7, 10, 13, 14, 4, 9, 20], [0, 7, 20, 11, 13]);
+
+
+
+
+
 
 
 
