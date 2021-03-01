@@ -4,9 +4,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
-		
 		<link rel="stylesheet" href="css/style.css">
-		
 	</head>
 	<body>
 		<!--Main website area-->
@@ -76,7 +74,6 @@
 			</div>
 		</section>
 		<!--End of main website area-->
-
 		<!--About website area-->
 			<section class="container">
 				<div class="row">
@@ -329,11 +326,30 @@
 						<div class="testimonialsTitle col-md-12">
 							Testimonials
 						</div>
-						<p class="col-md-12">
-							Carousel
-						</p>
 					</div>
 				</section>
+				<!--Start testimonials carousel area-->
+				<section class="container">
+					<div class="flexsliderTestimonials">
+						<ul class="slides">
+						  <li>
+							<div >
+								
+							</div>
+						  </li>
+						  <li>
+							<img src="slide2.jpg" />
+						  </li>
+						  <li>
+							<img src="slide3.jpg" />
+						  </li>
+						  <li>
+							<img src="slide4.jpg" />
+						  </li>
+						</ul>
+					  </div>
+				</section>
+				<!--Ent tsetimonials carousel area-->
 				<!--End of main website area-->
 				<!--My blog website area-->
 				<div class="blog">
@@ -531,9 +547,17 @@
 				maxItems: 3,
 			});
 			});
+		</script>	
+		<script>
+			$(window).load(function() {
+ 			$('.flexslider').flexslider({
+    		animation: "slide"
+ 			});
+			});
 		</script>
 		<script type="js/bootstrap.js"></script>
 		<script src="js/main.js"></script>
+		
 		
 		
 		
