@@ -111,7 +111,7 @@ verificare(13, [2, 3, 5, 7, 11, 13]);
 verificare(2, [1, 5, 8, 9, 15, 20, 26, 2]);*/
 
             //tema
-function calcule(p1, p2){
+/*function calcule(p1, p2){
     console.log(p1 + p2);
     console.log(p1 * p2);
 }
@@ -134,11 +134,32 @@ function verificare(a, b){
         
     }
 }
-verificare([7, 10, 13, 14, 4, 9, 20], [0, 7, 20, 11, 13]);
+verificare([7, 10, 13, 14, 4, 9, 20], [0, 7, 20, 11, 13]);*/
+
+//tema
+
+function suma(p1, p2){
+    for(i=0; i < 3; i++){
+        if(p1 + p2[i]){
+            console.log(p1+p2[i])
+        }
+
+    }
+}
+suma(5, [1, 2, 3, 4, 5, 6]);
+
+function word(p1){
+    console.log('a 3-a litera din cuvantul ' + p1 + ' este ' + p1.charAt(2));
+}
+word('masina')
 
 
+function text(a){
+    console.log(a.split('-').slice(1, 2))
+}
+text('salut-sunt-Alin')
 
-
+          
 
 
 

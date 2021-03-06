@@ -20,26 +20,41 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 0;
 }
-.menu{
-    margin-top: 30px;
-    margin-left: 50px;
+.navbar{
+    max-width: 100%;
+    padding: 0;
 }
-.label{
-    font-size: 30px;
-    line-height: 70px;
-    color: red;
-    cursor: pointer;
-    display: none;
+.logo{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 90px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 0;
 }
-#toggle{
-    display: none;
+.navbar-nav{
+    margin-left: 610px;
+    margin-top: 60px;
 }
-.itemMenu{
-    padding-right: .5rem;
-    padding-left: .5rem;
+.nav-item{
+    margin-top: -50px;
+}
+.navbar .nav-item a {
     color: #f1f1f1;
     font-size: 15px;
     font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: block;
 }
 .helloTitle{
     font-family: 'Raleway', sans-serif;
@@ -47,6 +62,7 @@
     font-weight: 100;
     margin-bottom: 5px;
     color: white;
+    margin-top: 100px;
 }
 .nameTitle{
     font-size: 70px;
@@ -74,29 +90,6 @@
 .socialMediaIcons ul li{
     display: inline;
     margin: 0 20px 0 0;
-}
-@media only screen and (max-width:812px){
-    .label{
-        display: block;
-        float: right;
-        margin-left: 426px;
-    }
-    .menu{
-        text-align: center;
-        width: 100%;
-        display: block;
-        background-color: black;
-        margin-top: -30px;
-
-    }
-    .menu a{
-        display: block;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-    #toggle checked + .menu{
-        display: block;
-    }
 }
 @media only screen and (max-width:1200px) and (min-width:1024px){
    .jobsTitle{
@@ -137,6 +130,37 @@
 @media only screen and (orientation:portrait) and (min-width: 375px){
     .hero .hero-inside{
         height: 25%;
+    }
+}
+@media (max-width: 991px){
+     .navbar-collapse {
+        overflow: auto;
+        background: #111;
+        color: #fff !important;
+        text-align: center;
+        padding: 10px 0;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        list-style-type: none;
+    }
+    .nav-item{
+        margin-top: 10px;
+        list-style: none;
+    }
+    .navbar .nav-item a{
+        color: #f1f1f1;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .navbar .nav-link {
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+    }
+    .navbar-button{
+        color: #ffffff;
+        margin-left: 631px;
     }
 }
 /*end main website area*/
@@ -415,6 +439,7 @@
 @media only screen and (orientation:landscape) and (min-width: 1024px){
     .procent1{
         margin-left: 315px;
+    }
 }
 
 /*end about area*/
@@ -941,7 +966,7 @@
     background: #171717;
     padding: 50px;
 }
-.logo{
+.logo2{
     margin-top: 30px;
     margin-bottom: 30px;
 }
