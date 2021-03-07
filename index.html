@@ -337,23 +337,21 @@
 				</section>
 				<!--Start testimonials carousel area-->
 				<section class="container">
-					<div class='row'>
-						<div class="flexslider2">
-							<ul class="slides2">
+						<div class="flexslider2 carousel">
+							<ul class="slides">
 							  <li>
-								
+								Ceva
 							  </li>
 							  <li>
-								
+								Altceva
 							  </li>
 							  <li>
-								
+								Altceva 2
 							  </li>
 							  <li>
-								
+								Altceva 3
 							  </li>
 							</ul>
-						  </div>
 					</div>
 				</section>
 				<!--Ent tsetimonials carousel area-->
@@ -543,9 +541,18 @@
 	
 	<script src="js/bootstrap.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
-	<script src="text/javascript" charset="utf-8">
+	<script type="text/javascript" charset="utf-8">
 			$(function() {
 			$('.flexslider').flexslider({
+				animation: "",
+				animationLoop: "false",
+				itemWidth: 210,
+				itemMargin: 3,
+				minItems: 3,
+				maxItems: 3,
+			});
+
+			$('.flexslider2').flexslider({
 				animation: "",
 				animationLoop: "false",
 				itemWidth: 210,
