@@ -139,12 +139,11 @@ verificare([7, 10, 13, 14, 4, 9, 20], [0, 7, 20, 11, 13]);*/
 //tema
 
 function suma(p1, p2){
-    for(i=0; i < 3; i++){
-        if(p1 + p2[i]){
-            console.log(p1+p2[i])
-        }
-
+    sum = 0;
+    for(i=0; i < p1; i++){
+        sum = sum + p2[i];
     }
+    console.log(sum)
 }
 suma(5, [1, 2, 3, 4, 5, 6]);
 
@@ -160,6 +159,7 @@ function text(a){
 text('salut-sunt-Alin')
 
           
+api.openweathermap.org/data/2.5/weather?q=Timisoara&appid=177c44d867719ccf7cc2450a11bfca6b
 
 
 

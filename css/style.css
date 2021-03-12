@@ -1,4 +1,19 @@
 /*start main website area*/
+.mare{
+    display: flex;
+}
+.mare .unu{
+    flex: 1;
+    background: #ff0000;
+}
+.mare .doi{
+    flex: 10;
+    background: blue;
+}
+.mare .trei{
+    flex: 1;
+    background: black;
+}
 .noPadding{
     padding-left: 0;
     padding-right: 0;
@@ -33,13 +48,15 @@
     margin-top: 0;
 }
 .navbar-nav{
-    margin-left: 610px;
-    margin-top: 60px;
+    width: 100%;
+    margin-top: 10px;
 }
 .nav-item{
     margin-top: -50px;
+    width: 100%;
+    text-align: center;
 }
-.navbar .nav-item a {
+.navbar .nav-item a{
     color: #f1f1f1;
     font-size: 15px;
     font-weight: 500;
@@ -47,7 +64,7 @@
     padding-right: .5rem;
     padding-left: .5rem;
 }
-.navbar-toggler {
+.navbar-toggler{
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
@@ -123,35 +140,46 @@
     }
 }
 @media only screen and (orientation:landscape) and (min-width: 1024px){
-    .hero .hero-inside {
+    .hero .hero-inside{
         height: 100%;
     }
 }
 @media only screen and (orientation:portrait) and (min-width: 375px){
     .hero .hero-inside{
-        height: 25%;
+        height: 100%;
+    }
+    .navbar-toggler{
+        margin-left: 40px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .navbar-brand{
+        float: none;
     }
 }
 @media (max-width: 991px){
-     .navbar-collapse {
+    .navbar-collapse{
         overflow: auto;
         background: #111;
         color: #fff !important;
         text-align: center;
         padding: 10px 0;
         display: flex;
-        height: 100%;
-        width: 100%;
+        height: 70%;
+        width: 743px;
         list-style-type: none;
+        margin-top: -130px;
     }
     .nav-item{
         margin-top: 10px;
         list-style: none;
     }
-    .navbar .nav-item a{
+    .navbar-nav .nav-item a{
         color: #f1f1f1;
         font-size: 15px;
         font-weight: 500;
+        display: block;
     }
     .navbar .nav-link {
         position: relative;
@@ -162,6 +190,16 @@
         color: #ffffff;
         margin-left: 631px;
     }
+    .navbar-nav li a{ 
+        line-height: 85px;
+        margin-bottom: 0px;
+    }
+    .navbar-brand{
+        float: none;
+    }
+    .navbar-toggler{
+        border:none;
+        width:1em;
 }
 /*end main website area*/
 /*start about area*/
@@ -441,7 +479,17 @@
         margin-left: 315px;
     }
 }
-
+@media only screen and (orientation:portrait) and (min-width: 375px){
+    .computerIcon{
+        display: none;
+    }
+    .laptopIcons{
+        display: none;
+    }
+    .videoCameraIcons{
+        display: none;
+    }
+}
 /*end about area*/
 /*start carousel area*/
 .flex-direction-nav{
@@ -582,7 +630,7 @@
 .horizontalLine4{
     width: 85%;
  }
- .flexslider ul li p{
+.flexslider ul li p{
      color: grey;
      margin-top: 20px;
      margin-bottom: 20px;
@@ -600,7 +648,7 @@
         margin-left: 126px;
         font-size: 58px;
      }
- }
+}
  @media only screen and (orientation:portrait) and (min-width: 1024px) and (max-width:1200px){
     .flex-control-nav{
     display: none;
@@ -728,6 +776,11 @@
 .flex-control-nav{
     display: none;
 }
+@media only screen and (orientation:portrait) and (min-width: 375px){
+    .flexSlider2 ul li{
+        width: 340 !important;
+    }
+}
 /*end testimonials carousel area*/
 
 /*start blog area*/
@@ -840,8 +893,16 @@
     .autor .autor1{
         margin-left: 17px;
     }
-    .johnSmithTitle {
+    .johnSmithTitle{
         margin-left: 59px;
+    }
+}
+@media only screen and (orientation:portrait) and (min-width: 375px){
+    .boxImg1{
+        margin-bottom: 30px;
+    }
+    .boxImg2{
+        margin-bottom: 30px;
     }
 }
 /*end blog area*/
@@ -1019,6 +1080,11 @@
         margin-top: 21px;
     }
 }
+@media only screen and (orientation:portrait) and (min-width: 375px){
+    .emailBox{
+        margin-top: 0;
+    }
+}
 /*end contact area*/
 /*start last part area*/
 .footer{
@@ -1048,3 +1114,4 @@
     margin-bottom: 30px;
 }
 /*end last part area*/
+
